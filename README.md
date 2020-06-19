@@ -1,5 +1,5 @@
 # RevStackCore.LogParser
-
+[![Build status](https://ci.appveyor.com/api/projects/status/upm5vapvhc80hjbt?svg=true)](https://ci.appveyor.com/project/tachyon1337/logparser)
 
 IIS W3C typed log file reader/parser
 
