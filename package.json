@@ -1,0 +1,19 @@
+{
+  "name": "RevStackCore.LogParser",
+  "version": "1.0.0",
+  "description": "IIS W3C typed log file reader/parser",
+  "main": "RevStackCore.LogParser.sln",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RevStackCore/LogParser.git"
+  },
+  "author": "MIS Interactive",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RevStackCore/LogParser/issues"
+  },
+  "homepage": "https://github.com/RevStackCore/LogParser"
+}
