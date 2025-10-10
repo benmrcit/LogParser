@@ -30,14 +30,14 @@ namespace RevStackCore.LogParser
 		public int Status;
 		[W3CInt32("sc-substatus")]
 		public int SubStatus;
-		[W3CInt32("sc-win32-status")]
-		public int Win32Status;
+		[W3CInt64("sc-win32-status")]
+		public long Win32Status;
 		[W3CInt32("time-taken")]
 		public int TimeTaken;
-		[W3CInt32("sc-bytes")]
-		public int BytesSent;
-		[W3CInt32("cs-bytes")]
-		public int BytesReceived;
+		[W3CInt64("sc-bytes")]
+		public long BytesSent;
+        [W3CInt64("cs-bytes")]
+		public long BytesReceived;
 		[W3CField("host")]
 		public string Host;
     }

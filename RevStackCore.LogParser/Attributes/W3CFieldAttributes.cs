@@ -46,4 +46,11 @@ namespace RevStackCore.LogParser
         {
         }
 	}
+
+    class W3CInt64Attribute : W3CFieldBaseAttribute
+    {
+        public W3CInt64Attribute(string name) : base(name, new Int64Convertor())
+        {
+        }
+    }
 }
