@@ -6,13 +6,14 @@
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>IIS W3C typed log file reader/parser</Description>
-    <PackageProjectUrl>https://github.com/RevStackCore/LogParser.git</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/RevStackCore/LogParser/blob/master/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://s3.amazonaws.com/revstack/icons/revstackcore-64x64.png</PackageIconUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>Net Standard 2.0 release</PackageReleaseNotes>
     <Copyright>Copyright 2020</Copyright>
-    <PackageTags>RevStackCore IIS Log Parser Reader</PackageTags>  
+    <PackageTags>RevStackCore IIS Log Parser Reader</PackageTags>
+    <PackageOutputPath>C:\Web Sites\_LocalNuget\</PackageOutputPath>  
   </PropertyGroup>
  
   <ItemGroup>
