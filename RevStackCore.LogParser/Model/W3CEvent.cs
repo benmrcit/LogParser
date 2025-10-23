@@ -26,19 +26,19 @@ namespace RevStackCore.LogParser
 		public string Agent;
 		[W3CField("cs(Referer)")]
 		public string Referer;
-		[W3CInt32("sc-status")]
+        [W3CField("cs-host")]
+        public string Host;
+        [W3CInt32("sc-status")]
 		public int Status;
 		[W3CInt32("sc-substatus")]
 		public int SubStatus;
 		[W3CInt64("sc-win32-status")]
 		public long Win32Status;
-		[W3CInt32("time-taken")]
-		public int TimeTaken;
 		[W3CInt64("sc-bytes")]
 		public long BytesSent;
         [W3CInt64("cs-bytes")]
 		public long BytesReceived;
-		[W3CField("host")]
-		public string Host;
+        [W3CInt32("time-taken")]
+        public int TimeTaken;
     }
 }
