@@ -13,7 +13,7 @@
     <PackageReleaseNotes>Net Standard 2.0 release</PackageReleaseNotes>
     <Copyright>Copyright 2020</Copyright>
     <PackageTags>RevStackCore IIS Log Parser Reader</PackageTags>
-    <PackageOutputPath>C:\Web Sites\_LocalNuget\</PackageOutputPath>  
+    <PackageOutputPath>.artifacts</PackageOutputPath>  
   </PropertyGroup>
  
   <ItemGroup>
