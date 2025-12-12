@@ -20,3 +20,4 @@ nuget.exe
 restore.dg
 .DS_Store
 Thumbs.db
+PublishGithubNuget.ps1
